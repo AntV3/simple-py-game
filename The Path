@@ -1,0 +1,43 @@
+##The Path
+
+answer_yes = ("Yes" , "Y" , "yes" , "y")
+answer_no = ( "No" , "N" , "no" , "n")
+
+print(""" Hi and welcome to The Path
+
+in this game you will; be able to decide weather or not your palyer
+
+will be able to acheive his dreams of being of a proffesional soccer player by answering
+
+Yes or No to different scenarios so CHOOSE WISELY  
+Let us Begin  
+
+you're a young kid out of highschool you only receive 1 offer to play at a division 1 school
+
+but  the coach informs you  you are not promised any minutes and their will be a possibility that
+
+you can become redshirted your first year.   Do you accept the offer?  (Yes/No """)
+
+
+rspns1 = input(">>")
+
+if rspns1 in answer_yes:
+    print ("You chose to accept the offer  its your first day of training with the college team  do put in extra hours after team regular training (Yes/No)")
+
+respns2 = input(">>")
+
+if respns2 in answer_yes:
+    print(" you put in the extra hours and are starting to get noticed more and more by coaches  you  begin to get more minutes in game and eventually become a regular starter.")
+
+elif respns2 in answer_no:
+        print("you decided to not stay after training and are unable to progress and develop  as a player and  eventually get cut from the team GAME OVER!")
+
+elif  respns2 in answer_yes:
+    print("Now you have multiple offers wating for you after having a amazing 4 years at the college level one of them being a offer for your favorite club , you now have the oppurtunity to go pro but that ofcourse comes with big sacrifices such as time with freinds and lived ones  Do you accept the offer to play pro? Yes/No ")
+
+respns3 = input(">>")
+
+if respns3 in  answer_yes:
+        print ("you  accepted the offer and now are playing at the pro level in your favorite club  in the beggining the club feels like a dream come true you but overtime you realize everything isnt what it seems and people begin to show their true colors do you stay and push through this adversity? Yes/No")
+
+
